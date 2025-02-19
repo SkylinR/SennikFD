@@ -1,7 +1,9 @@
 {
     "name": "DreamDiaryEditor",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "DreamDiary"
+    ],
     "includePlatforms": [
         "Editor"
     ],

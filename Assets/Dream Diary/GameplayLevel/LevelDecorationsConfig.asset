@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ad0ac9b5e30a047b870ae0890b4a40, type: 3}
+  m_Name: LevelDecorationsConfig
+  m_EditorClassIdentifier: 
+  wallDecorationsProbability: 0.5
+  wallDecorations:
+  - prefab: {fileID: 100066, guid: 9245e26ad7c62d04b85159fbd3564c2c, type: 3}
+    probability: 0.4
+    canRandomRotate: 0
+  - prefab: {fileID: 100030, guid: 58f563355aadeb3449ef8dea38d684a1, type: 3}
+    probability: 0.5
+    canRandomRotate: 0
+  - prefab: {fileID: 100014, guid: 7bade91c709d500478a3cdaa697994d7, type: 3}
+    probability: 0.1
+    canRandomRotate: 0
+  groundDecorationsProbability: 0.1
+  groundDecorations:
+  - prefab: {fileID: 100000, guid: 10bc6d9fae2413142a4f49825af0487a, type: 3}
+    probability: 0.6
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: 697d5f4c5ba05044b85072365842d0dd, type: 3}
+    probability: 0.6
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: cd2bddb9961304741bb667a4a663f581, type: 3}
+    probability: 0.7
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: 7de209ee5e8595e41887a1dedd915a11, type: 3}
+    probability: 0.2
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: 5562165546ff14f45bea34769748c3a8, type: 3}
+    probability: 0.1
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: a0e26983dde4ea24d8cef87db524be41, type: 3}
+    probability: 0.1
+    canRandomRotate: 1
+  groundWallDecorationsProbability: 0.7
+  groundWallDecorations:
+  - prefab: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+    probability: 1
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: ca7ff24101826a141b95bc27f8d49174, type: 3}
+    probability: 1
+    canRandomRotate: 1
+  - prefab: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+    probability: 1
+    canRandomRotate: 1
+  - prefab: {fileID: 100006, guid: 174108d41170dfe4b99e461fa4207ec1, type: 3}
+    probability: 0.2
+    canRandomRotate: 0
+  - prefab: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+    probability: 0.2
+    canRandomRotate: 1
+  - prefab: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+    probability: 0.2
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: 480db41665e53e7478c2fa3aa583a1a6, type: 3}
+    probability: 0.4
+    canRandomRotate: 0
+  - prefab: {fileID: 100000, guid: fb9146713e012044a9861dc471edd4ee, type: 3}
+    probability: 0.4
+    canRandomRotate: 0
+  - prefab: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+    probability: 0.4
+    canRandomRotate: 0
+  - prefab: {fileID: 100008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
+    probability: 0.05
+    canRandomRotate: 1
+  - prefab: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
+    probability: 0.1
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+    probability: 0.4
+    canRandomRotate: 1
+  - prefab: {fileID: 100006, guid: eb9a0a0315e3a16499b4caa557a46bfb, type: 3}
+    probability: 0.4
+    canRandomRotate: 1
+  - prefab: {fileID: 100000, guid: 455e91ef9a68edd4ca1a9bba2ffccad8, type: 3}
+    probability: 0.3
+    canRandomRotate: 0
+  - prefab: {fileID: 100000, guid: 4a90ae8b8179ff54e8f81ca11ea0252f, type: 3}
+    probability: 0.3
+    canRandomRotate: 0
+  - prefab: {fileID: 100000, guid: 09edea94305a15149b2ac23692282140, type: 3}
+    probability: 0.3
+    canRandomRotate: 0
+  portal: {fileID: 4527278103721160021, guid: 317c09d55b47260f49f4bcbbca0b83b6, type: 3}
+  endGamePortal: {fileID: -1690768972779270190, guid: 04b8c287557dcf242805e92ae663d7b7, type: 3}
